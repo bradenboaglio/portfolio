@@ -1,2 +1,2 @@
 # portfolio
-Repository for my portfolio website.
+A repository for my portfolio website.
