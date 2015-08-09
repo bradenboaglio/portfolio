@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Braden Boaglio</title>
+    <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore|Qwigley|Amatic+SC|Sacramento' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+
+  </head>
+  <body>
+
+    <div id="fullpage">
+      <a id="home" href="#firstPage">BB</a>
+      <div class="section">
+        <div class="landing">
+          <nav id="menu">
+            <ul>
+              <li>
+                <a href="#">///</a>
+                <ul class="fallback">
+                  <li data-menuanchor="firstPage" class="active"><a href="#firstPage">home</a></li>
+                  <li data-menuanchor="secondPage"><a href="#secondPage">projects</a></li>
+                  <li><a href="#">design</a></li>
+                  <li><a href="#">contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <h1>Braden  Boaglio</h1>
+
+        </div>
+      </div>
+      <div class="section">
+        <div class="portfolio"></div>
+      </div>
+      <div class="section">
+        <div class="resume"></div>
+      </div>
+      <div class="section">
+        <div class="contact"></div>
+      </div>
+
+    </div>
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.easings.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+  			$('#fullpage').fullpage({
+  			  sectionsColor: [],
+  			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+  			  menu: "#menu, #home"
+  			});
+  		});
+  </script>
+
+
+  </body>
+</html>
